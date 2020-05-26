@@ -54,5 +54,6 @@ find_package_handle_standard_args(IPOPT
         REQUIRED_VARS IPOPT_INCLUDE_DIRS IPOPT_LIBRARIES
         VERSION_VAR   IPOPT_VERSION)
 
-# Include the Ipopt directories in our project
+# Include Ipopt directories and link libraries to the project
 target_include_directories(MyExample PUBLIC ${IPOPT_INCLUDE_DIRS})
+target_link_libraries(MyExample ${IPOPT_LIBRARIES})
