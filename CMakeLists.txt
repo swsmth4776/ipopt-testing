@@ -3,7 +3,7 @@ project(MyExample)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MyExample main.cpp hs071_nlp.cpp hs071_nlp.hpp)
+add_executable(MyExample MyExample.cpp hs071_nlp.cpp hs071_nlp.hpp)
 
 # Copyright (c) 2011-2019, The DART development contributors
 # All rights reserved.
